@@ -29,4 +29,4 @@ spec:
       machineDeployments:
         - class: node-pool
           name: nodepool1
-          replicas: 2
+          replicas: 3
