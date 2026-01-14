@@ -20,7 +20,7 @@ spec:
     version: v1.33.3---vmware.1-fips-vkr.1
     variables:
       - name: vmClass
-        value: best-effort-small
+        value: best-effort-medium
       - name: storageClass
         value: nfs-storage-policy
     controlPlane:
@@ -29,4 +29,4 @@ spec:
       machineDeployments:
         - class: node-pool
           name: nodepool1
-          replicas: 1
+          replicas: 2
